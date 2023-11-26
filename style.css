@@ -1,0 +1,18 @@
+h1:hover {
+    background-color: chocolate;
+    font-weight: bold;
+}
+h1:active {
+    color:red;
+    font-style: italic;
+}
+h1::before {
+    content: 'Good day to you';
+    color:blue;
+    font-weight: lighter;
+}
+h1::after {
+    content: 'Goodbye';
+    color:purple;
+    font-family: Georgia;
+}
